@@ -1,0 +1,679 @@
+﻿<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kirti soni</title>
+    <meta name="description" content="">
+    <meta name="msapplication-tap-highlight" content="yes" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0" />
+
+    <!-- Google Web Font -->
+    <link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!--  Bootstrap 3-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Web Icons Font -->
+    <link rel="stylesheet" href="css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="css/iconmoon.css">
+    <link rel="stylesheet" href="css/et-line.css">
+
+    <!-- Tabs -->
+    <link rel="stylesheet" type="text/css" href="css/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="css/tabstyles.css" />
+
+    <!-- Costum Styles -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/ico" href="favicon.ico">
+
+    <!-- Modernizer & Respond js -->
+    <script src="js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+
+<body>
+    <div class="preloader">
+        <span class="load"></span>
+    </div>
+
+    <div class="menu-wrap">
+        <div class="menu-content">
+            <div class="container">
+                <div class="row">
+                    <div class="navigation"> 
+                        <span class="pe-7s-left-arrow close-menu" id="close-button"></span>
+                        <div class="menu-logo hidden-xs">
+                            <img src="img/menu_logo.png" alt="logo" />
+                        </div>
+                    </div>  
+                    <div class="col-md-8 col-md-offset-2 col-xs-12">
+                        <div class="col-md-6 col-sm-6">
+                            <nav class="menu">
+                                <div class="menu-list">
+                                    <ul>
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="about.html">About</a></li>
+                                        <!--<li class="trigger-sub-nav"><a href="#">Blog</a>
+                                            <ul class="subnav">
+                                                <li><a href="blog-masonry.html">- Masonry</a></li>
+                                                <li><a href="blog-3column.html">- 3 Column</a></li>
+                                            </ul>
+                                        </li>-->
+                                        <!--<li><a href="services.html">Services</a></li>-->
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="col-md-6 col-sm-6 hidden-xs">
+                            <div class="menu-contact-information">
+                                <span class="menu-email">kirtisoni530@gmail.com</span>
+                                <span class="menu-tel">Tel: +91 813 020 4003</span>
+                                <span class="menu-address">Ghaziabad<br/> India</span>
+                                <div class="menu-social-icons">
+                                    <ul>
+                                        <li><a target="_blank" href="https://www.linkedin.com/in/kirtisoni/"><span class="iconmoon-linkedin2"></span></a></li>
+                                        <li><a target="_blank" href="https://plus.google.com/u/0/+KirtiSoni12"><span class="iconmoon-google-plus"></span></a></li>
+                                        <!--<li><a target="_blank" href="https://www.behance.net/kirtisoni12"><span class="iconmoon-behance"></span></a></li>-->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="logo" />
+                </a>
+            </div>
+            <button class="main-menu-indicator" id="open-button">
+                <span></span>
+            </button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="portfolio-wrapper">
+                <div class="works-filter">
+                    <a href="javascript:void(0)" class="filter active" data-filter="mix">All</a>
+                    <a href="javascript:void(0)" class="filter" data-filter="code">HTML/CSS</a>
+                    <a href="javascript:void(0)" class="filter" data-filter="wp">WordPress</a>
+                    <a href="javascript:void(0)" class="filter" data-filter="design">Other designs</a>
+                </div>
+                <div id="work-grid" class="js-masonry">
+                    <!-- Begin of Portfolio -->
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix code">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/angular-dashboard.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a target="_blank" href="http://demo.sanskriti-tech.com/demo/angular-dev1/#/core/login">
+                                            <span class="project-name">Dashboard</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Angular js, HTML, CSS, Bootstrap</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix code">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/bobhunts.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a target="_blank" href="http://demo.sanskriti-tech.com/demo/bobhunts/">
+                                            <span class="project-name">Bobhunts</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">HTML, CSS, Javascript</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix code">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/brimag.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a target="_blank" href="http://demo.sanskriti-tech.com/demo/brimag/">
+                                            <span class="project-name">Brimag</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">HTML & CSS</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix code">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/clositt.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a target="_blank" href="http://clositt.com/">
+                                            <span class="project-name">Clositt</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Javascript , HTML & CSS</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix code">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/covered-california.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a target="_blank" href="http://demo.sanskriti-tech.com/demo/covered-california/">
+                                            <span class="project-name">Covered California</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">jQuey, HTML & CSS (Skeleton framework)</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix code">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/Factory54.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a target="_blank" href="http://demo.sanskriti-tech.com/demo/Factory54/">
+                                            <span class="project-name">Factory54</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">HTML & CSS</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix code">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/gr8.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a target="_blank" href="http://demo.sanskriti-tech.com/demo/gr8/">
+                                            <span class="project-name">gr8</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">HTML & CSS</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-md-3 col-sm-3 col-xs-12 mix code">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/solankyagency.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a target="_blank" href="http://solankyagency.com/">
+                                            <span class="project-name">Solankyagency</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">HTML & CSS, Bootstrap</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-md-3 col-sm-3 col-xs-12 mix code">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/digitalfry.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a target="_blank" href="http://digitalfry.co.in/">
+                                            <span class="project-name">Digital Fry</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">HTML & CSS, Bootstrap</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix code">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/hatankala.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="hatankala.html">
+                                            <span class="project-name">Hatankala</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">javascript, HTML & CSS</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-md-3 col-sm-3 col-xs-12 wp">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/blueterra.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a target="_blank" href="blueterra.in">
+                                            <span class="project-name">Blueterra</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">WordPress</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-md-3 col-sm-3 col-xs-12 wp">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/bluelupin.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a target="_blank" href="blueterra.in">
+                                            <span class="project-name">Bluelupin</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">WordPress</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-md-3 col-sm-3 col-xs-12 mix wp">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/bluenectar.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a target="_blank" href="blueterra.in">
+                                            <span class="project-name">Blue nector</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">WordPress</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix code">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/h-o.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a target="_blank" href="http://www.h-o.co.il/">
+                                            <span class="project-name">H & O</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">javascript, HTML & CSS</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix code">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/how-works.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a target="_blank" href="http://demo.sanskriti-tech.com/demo/how%20it%20works%20html/">
+                                            <span class="project-name">How it works</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">javascript, HTML & CSS</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix code">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/idigital.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a target="_blank" href="http://www.idigital.co.il/">
+                                            <span class="project-name">idigital</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">HTML & CSS</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix code">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/interiorhunt.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a target="_blank" href="http://www.interiorhunt.com/">
+                                            <span class="project-name">InteriorHunt</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">HTML & CSS</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix code">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/kosherbooking.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a target="_blank" href="http://demo.sanskriti-tech.com/demo/kosherbooking/">
+                                            <span class="project-name">Kosher Booking</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Jquery , HTML & CSS</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix code">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/lifestyle.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a target="_blank" href="http://demo.sanskriti-tech.com/demo/lifestyle/">
+                                            <span class="project-name">Lifestyle</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Jquery , HTML & CSS</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix code">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/mimshak.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a target="_blank" href="https://www.mimshak.com/">
+                                            <span class="project-name">Mimshak</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Jquery , HTML & CSS</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix code">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/oculustraining.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a target="_blank" href="http://www.oculustraining.com/">
+                                            <span class="project-name">Oculustraining</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Jquery , HTML & CSS</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix code">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/primomusic.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a target="_blank" href="http://demo.sanskriti-tech.com/demo/primomusic/">
+                                            <span class="project-name">PrimoMusic</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">jQuery, HTML & CSS</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix code">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/rtfmarket.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a target="_blank" href="http://demo.sanskriti-tech.com/demo/rtfmarket/">
+                                            <span class="project-name">RTF Market</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">HTML & CSS</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix code">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/schoolinks.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a target="_blank" href="https://www.schoolinks.com/">
+                                            <span class="project-name">SchooLinks</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">HTML & CSS</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix code">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/secureapps.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a target="_blank" href="http://secureapps.us/">
+                                            <span class="project-name">SecureApps</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">jQuery, HTML & CSS</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix design">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/shoutzi.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="shoutzi.html">
+                                            <span class="project-name">ShoutZi</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Also converted it in HTML & CSS (Mobile Site)</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix code">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/tckt.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a target="_blank" href="http://demo.sanskriti-tech.com/demo/tckt/">
+                                            <span class="project-name">Tierney</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">HTML & CSS</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix code">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/Teva.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a target="_blank" href="http://demo.sanskriti-tech.com/demo/teva/">
+                                            <span class="project-name">Teva</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">jQuery, HTML & CSS</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix code">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/vipul.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a target="_blank" href="http://www.vipulfashions.com/">
+                                            <span class="project-name">Vipul Fashions</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">jQuery, HTML & CSS</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix code">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/websdaap.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a target="_blank" href="http://demo.sanskriti-tech.com/demo/websdaap/">
+                                            <span class="project-name">Web-sDaap</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Branding Design</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix code">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/Zedek.png" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a target="_blank" href="http://demo.sanskriti-tech.com/demo/zedek/">
+                                            <span class="project-name">Zedek</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">HTML & CSS</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+					<div class="col-md-3 col-sm-3 col-xs-12 mix design">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/lifesavr.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="lifesavr.html">
+                                            <span class="project-name">LifeSavr</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Design</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+					<div class="col-md-3 col-sm-3 col-xs-12 mix design">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/samvaad.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="samvaad.html">
+                                            <span class="project-name">SamVaad</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Design</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <!-- End  of Portfolio -->
+                </div>                
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-content">
+                    <div class="social-media">
+                        <ul>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/kirtisoni/">LINKEDIN</a></li>
+                            <li><a target="_blank" href="https://www.behance.net/kirtisoni12">BEHANCE</a></li>
+                            <li><a target="_blank" href="https://plus.google.com/u/0/+KirtiSoni12">GOOGLE+</a></li>
+                        </ul>
+                    </div>
+					 <a href="contact.html" class="btn btn-1">Contact me</a>
+                </div>
+                <span class="move-top">
+                    <a href="#top"><i class="pe-7s-angle-up"></i></a>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/tabs.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
