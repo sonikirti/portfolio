@@ -18,6 +18,8 @@
 		max-width: 750px;
 		width: 100%;
 	}
+	.half-part{padding-top:30px;}
+	
 }
 
 /* 2. Small devices (tablets, 767px and Down) */
@@ -138,10 +140,10 @@
 	}
 
 	.social-media ul li {
-	  width: 50%;
-	  float: left;
+	  width:100%;
+	  float: none;margin:5px;
 	}
-
+	.footer-wrapper{height:200px;}
 	.blog-content-inner{
 		padding-left: 20px;
 		padding-right: 20px;

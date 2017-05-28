@@ -21,7 +21,7 @@
 
 /* =Common Styles
 -------------------------------------------------------------- */
-
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
 @import url(http://fonts.googleapis.com/css?family=Lato);
 
 body {
@@ -1062,7 +1062,7 @@ a#load-more.loading {
 
 .half-part {
     height: 100%;
-    max-width:710px;width:100%;
+    max-width:610px;width:100%;
     margin: auto;
     height: 475px;
     display: table;
@@ -2051,7 +2051,7 @@ footer{
 	margin-bottom:15px;
 	width:100%;
 	background:#eee;
-	height:26px;
+	height:20px;
 	border-radius:3px;
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
@@ -2087,9 +2087,9 @@ width:110px;
 .skillbar-title span {
 	display:block;
 	background:rgba(0, 0, 0, 0.1);
-	padding:0 20px;
-	height:26px;
-	line-height:26px;
+	padding:0 14px;
+	height:20px;
+	line-height:20px;
 	-webkit-border-top-left-radius:3px;
 	-webkit-border-bottom-left-radius:3px;
 	-moz-border-radius-topleft:3px;
@@ -2099,7 +2099,7 @@ width:110px;
 }
 
 .skillbar-bar {
-	height:26px;
+	height:20px;
 	width:0px;
 	background:#6adcfa;
 	border-radius:3px;
@@ -2112,8 +2112,8 @@ width:110px;
 	right:10px;
 	top:0;
 	font-size:11px;
-	height:26px;
-	line-height:26px;
+	height:20px;
+	line-height:20px;
 	color:#ffffff;
 	color:rgba(0, 0, 0, 0.4);
 }
